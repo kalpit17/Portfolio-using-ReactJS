@@ -1,0 +1,45 @@
+.single__service{
+    background-color: var(--card-color);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--primary-color);
+    transition: 0.3s;
+}
+.single__service:hover{
+    transform:translateY(-15px);
+}
+.single__service h2{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.single__service p{
+    font-weight: 300;
+    line-height: 30px;
+}
+.service__icon{
+    color: var(--primary-color);
+    font-size: 2.2rem;
+}
+.services__top{
+    margin-bottom: 15px;
+}
+.services__top h6
+{
+    color: var(--primary-color) !important;
+    margin-bottom: 15px;
+}
+
+
+/* ------------------Responsive ----------------------------*/
+@media only screen and (max-width:768px){
+
+    .single__service h2{
+        font-size:1.2rem;
+    }
+    .single__service p{
+        font-size:0.8rem;
+        line-height: 20px;
+    }
+}

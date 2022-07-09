@@ -1,0 +1,70 @@
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+/* base style */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:var(--bg-color);
+}
+html{
+  scroll-behavior: smooth !important;
+}
+h1,h2,h3,h4,h5,h6{ 
+  color:var(--white-color);
+  font-family: "Lato",sans-serif;
+  margin: 0;
+}
+
+h1,h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p{
+  color: var(--white-color);
+  opacity: 75%;
+  font-size: 1rem;
+  font-family:"Rubik",sans-serif ;
+  font-weight: 400;
+  text-align: justify;
+}
+ul{
+  list-style: none;
+  margin: 0;
+}
+a{
+  color:unset;
+  font-family:"Lato",sans-serif ;
+}
+a:hover{
+  color: unset;
+}
+section{
+  padding: 60px 0px;
+}
+
+/* ------------------custom scroll-bar--------------------------- */
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: var(--scroll-bar-color);
+
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background-color:var(--scroll-bar-thumb-color);
+}
+
+/* ------------------Responsive ----------------------------*/
+/* @media only screen and (max-width:992px){
+  section{
+    padding: 50px 0px;
+  }
+} */

@@ -1,0 +1,31 @@
+.table{
+    border: none;
+    border-collapse: collapse;
+    border:1px solid var(--card-color);
+    border-radius: 5px;
+}
+
+th,td{
+    padding: 1.2rem 1rem !important;
+    font-size: 1rem;
+}
+thead{
+    background:var(--primary-color);
+    color: var(--white-color);
+}
+td{
+    font-size: 0.9rem;
+    color: var(--white-color);
+    font-weight: 500;
+}
+tr:nth-child(even){
+    background: var(--modal-color);
+}
+
+/* ------------------Responsive----------------------------- */
+@media only screen and (max-width:992px){
+    th,td{
+        padding: 15px !important;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,13 @@
+.footer{
+    background: #132347;
+    box-shadow: -2px 2px 4px 2px #7865ff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-align: center;
+}

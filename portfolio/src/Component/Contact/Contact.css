@@ -1,0 +1,29 @@
+.single__info-box{
+    background: var(  --card-color);
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid var(--primary-color);
+    margin-bottom: 25px;
+}
+.single__info-box p{
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+.single__info-box h6{
+    font-size: 1.1rem;
+
+}
+
+/* ------------------Responsive ----------------------------*/
+@media only screen and (max-width:768px){
+    .single__info-box p{
+        font-size: 0.8rem;
+    }
+    .single__info-box h6{
+        font-size: 1rem;
+    
+    }
+}
+

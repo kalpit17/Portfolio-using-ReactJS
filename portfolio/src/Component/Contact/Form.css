@@ -1,0 +1,32 @@
+.form{
+    width: 100%;
+    background: var(--card-color);
+    padding: 30px;
+    border-radius: 5px;
+}
+.form__input input,textarea{
+    border: none;
+    width: 100%;
+    padding:7px 15px;
+    color: var(--white-color);
+    margin-bottom: 15px;
+    background: var(--card-color);
+    border-bottom: 1px solid var(--primary-color);
+    outline: none;
+    font-size: 0.9rem;
+}
+.form__btn{
+    margin-top: 15px;
+    padding: 7px 25px;
+    font-size: 0.9rem;
+    background: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form__btn:hover{
+    color:  var(--primary-color) !important;
+    background:  var(--white-color) !important;
+}
