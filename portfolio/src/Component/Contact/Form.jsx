@@ -22,7 +22,7 @@ const Form = () => {
             <textarea rows='5' name='Message'  value={enteredMessage} onChange={e=>setEnteredMessage(e.target.value)} placeholder='Message'></textarea>
         </div>
         <div >
-            <button type='submit' className="form__btn">Send</button>
+            <button type='submit' className="form__btn">Send Message &#x279C;</button>
         </div>
 
     </form>

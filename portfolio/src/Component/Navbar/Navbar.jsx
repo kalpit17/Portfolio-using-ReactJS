@@ -44,7 +44,8 @@ const Navbar = () => {
     };
   },[]);
 
-  const menuToggle=()=> menuRef.current.classList.toggle('menu__active');
+  const menuToggle=()=> {menuRef.current.classList.toggle('menu__active');};
+
 
   // const handleClick =(e)=>{
   //   e.preventDefault();
@@ -69,14 +70,18 @@ const Navbar = () => {
                 {navLink.map((item, index) => (
                     <li className="nav__item" key={index}>
                     {/* <a href={item.url} onClick={handleClick}>{item.name}</a> */}
-                    <a href={item.url}>{item.name}</a>
+                    <a href={item.url} onClick={()=>(document.title="Kalpit Prajapati | "+item.name )}>{item.name}</a>
                     </li>
                 ))}
                 </ul>
+                <div  className="close__btn">
+                <span><i className="ri-close-circle-fill"></i></span>
             </div>
+            </div>
+            
 
             <div className="nav__right d-flex align-items-center gap-4">
-                <button className="btn contact__btn"><a href="#contact">let's Talk</a></button>
+                <button className="btn contact__btn"><a href="#contact" onClick={()=>(document.title="Kalpit Prajapati | Contact")}>let's Talk</a></button>
                 <span className="mobile__menu"><i className="ri-menu-5-line" onClick={menuToggle}></i></span>
             </div>
 

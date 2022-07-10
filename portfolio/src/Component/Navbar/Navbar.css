@@ -57,6 +57,9 @@
 .mobile__menu{
     display: none;
 }
+.close__btn{
+    display: none;
+}
 .header__shrink{
     background: #132347;
     box-shadow: 2px 2px 4px -2px #7865ff;
@@ -89,6 +92,22 @@
     }
     .menu__active{
         display: block;
+    }
+    .close__btn{
+        /* background: green; */
+        position: absolute;
+        padding: 0px 10px !important;
+        display: inline;
+        right: 0;
+        z-index: 1002;
+        cursor: pointer;
+    }
+    .close__btn i{
+        color: var(--primary-color);
+        font-size: 35px; 
+    }
+    .close__btn i:hover{
+        color:var(--white-color);
     }
     .mobile__menu{
         display: block;

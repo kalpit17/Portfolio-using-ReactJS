@@ -4,6 +4,7 @@
     border-radius: 5px;
     border-bottom: 1px solid var(--primary-color);
     margin-bottom: 25px;
+    word-wrap: break-word;
 }
 .single__info-box p{
     font-weight: 300;
@@ -13,8 +14,24 @@
 }
 .single__info-box h6{
     font-size: 1.1rem;
-
 }
+.single__info-box span a i{
+    color: var(--white-color);
+    font-size:1.2rem;
+    background: var(--primary-color);
+    padding: 5px;
+    border-radius: 7px;
+}
+.single__info-box span{
+    margin-right: 15px;
+    transition: .3s;
+    
+}
+.single__info-box span a i:hover{
+    color: var(--primary-color);
+    background: var(--white-color);
+}
+
 
 /* ------------------Responsive ----------------------------*/
 @media only screen and (max-width:768px){
@@ -23,7 +40,15 @@
     }
     .single__info-box h6{
         font-size: 1rem;
-    
     }
 }
+@media only screen and (max-width:575px){
+    .single__info-box span a i{
+        font-size: 0.8rem;
+    }
+    .single__info-box span{
+        margin-right: 10px;
+    }
+}
+
 

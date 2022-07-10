@@ -43,7 +43,7 @@ const Portfolio = () => {
       <Container>
         <Row>
           <Col lg="12" className="portfolio__top mb-5">
-            <h6>Explore my work and give a feedback</h6>
+            <h6 className="pt-3">Explore my work and give a feedback</h6>
             <h2>Portfolio</h2>
           </Col>
           {portfolioData.map((item, index) => (

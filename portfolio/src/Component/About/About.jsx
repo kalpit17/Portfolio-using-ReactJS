@@ -7,12 +7,13 @@ import Skills from './Skills';
 
 const About = () => {
 
-    const [aboutFilter,setAboutFilter]=useState('about')
+    const [aboutFilter,setAboutFilter]=useState('about');
+
   return (
     <section id="about">
         <Container>
             <Row>
-                <Col lg='12' className='mb-5'><h2>About Me</h2></Col>
+                <Col lg='12' className='mb-5 pt-3'><h2>About Me</h2></Col>
                 <Col lg='4' md='3' xs='12'>
                     <div className="about__btns d-flex flex-column align-items-center">
                         <button className={`about__btn ${aboutFilter === 'about'?'about__btn-active':''} ` } onClick={()=>setAboutFilter('about') } >
@@ -28,7 +29,7 @@ const About = () => {
                 </Col>
                 <Col lg='8' md='9' xs='12'>
                     {aboutFilter === 'about' && <div className="about__content__wrapper d-flex gap-5">
-                        <div className='about__img'>
+                        <div className='about__img' >
                             <img src={profile} alt="Profile Pic"/>
                         </div> 
                         <div className='about__Content'>

@@ -20,6 +20,7 @@ const Home = () => {
   return (
     <section className='hero__section' id="home">
         <Container>
+            <div className='hero__container'>
             <Row>
                 <Col lg='6' md='6'>
                     <div className="hero__content ">
@@ -39,6 +40,9 @@ const Home = () => {
                     </div>
                 </Col>
             </Row>
+
+            </div>
+            
         </Container>
     </section>
   )

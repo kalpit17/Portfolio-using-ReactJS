@@ -37,10 +37,11 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <Container id="services">
+    <section  id="services">
+      <Container>
       <Row>
         <Col lg="12" className="services__top mb-5">
-          <h6>Features</h6>
+          <h6 className="pt-3">Features</h6>
           <h2>What Services I Provide</h2>
         </Col>
         {servicesData.map((item, index) => (
@@ -58,6 +59,8 @@ const Services = () => {
         ))}
       </Row>
     </Container>
+    </section>
+    
   );
 };
 
