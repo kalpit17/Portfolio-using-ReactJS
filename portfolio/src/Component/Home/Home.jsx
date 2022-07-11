@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import resume from '../../assets/Kalpit Resume.pdf'
 
 import { Container, Row, Col } from 'reactstrap';
 import profile from '../../assets/profile.png';
@@ -27,10 +28,10 @@ const Home = () => {
                         <p className='mb-3'>Welcome to my world!</p>
                         {/* <h5 className='mb-4'>Hi</h5> */}
                         <h2 className='hero__title mb-4'>I'm <span> {text}</span><Cursor /></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sint dolores molestiae molestias veniam recusandae ut obcaecati delectus ex incidunt accusamus nostrum fugiat nulla minima, cupiditate nobis laborum autem sed.</p>
+                        <p>A software engineer based in gujarat, india. I am specialized in both front-end and back-end web development.</p>
                         <div className="mt-4 hero__btns d-flex align-items-center gap-4">
                             <button className='hire__btn btn'><a href='#contact'>Contact</a></button>
-                            <button className='btn resume__btn'><a href='#resume'>Download Resume</a></button>
+                            <button className='btn resume__btn'> <a href={resume} target={'_blank'} rel="noreferrer">Download Resume</a></button>
                         </div>
                     </div>
                 </Col>

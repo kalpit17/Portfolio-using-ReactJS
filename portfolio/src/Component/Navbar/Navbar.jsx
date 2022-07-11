@@ -1,4 +1,5 @@
 import React,{useRef,useEffect} from "react";
+import { useState } from "react";
 import { Container } from "reactstrap";
 import './Navbar.css';
 
@@ -45,6 +46,7 @@ const Navbar = () => {
   },[]);
 
   const menuToggle=()=> {menuRef.current.classList.toggle('menu__active');};
+  const [active,setActive] = useState('#home')
 
 
   // const handleClick =(e)=>{
@@ -70,7 +72,9 @@ const Navbar = () => {
                 {navLink.map((item, index) => (
                     <li className="nav__item" key={index}>
                     {/* <a href={item.url} onClick={handleClick}>{item.name}</a> */}
-                    <a href={item.url} onClick={()=>(document.title="Kalpit Prajapati | "+item.name )}>{item.name}</a>
+                    <a href={item.url} className={active===item.url?'active':''} onClick={()=>{
+                      setActive(item.url);
+                      document.title="Kalpit Prajapati | "+item.name }}>{item.name}</a>
                     </li>
                 ))}
                 </ul>

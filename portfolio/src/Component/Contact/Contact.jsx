@@ -14,25 +14,25 @@ const Contact = () => {
                 <Col lg='6' md='12'>
                     <div className="contact__info__container d-flex align-items-center gap-4">
                         <div className="single__info-box  w-50">
-                                <h6><i class="ri-home-6-fill"></i> Address</h6>
+                                <h6><i className="ri-home-6-fill"></i> Address</h6>
                             <p>Ahmedabad, Gujarat, India</p>
                         </div>
                         <div className="single__info-box w-50">
-                            <h6><i class="ri-phone-fill"></i> Phone Number</h6>
+                            <h6><i className="ri-phone-fill"></i> Phone Number</h6>
                             <p>+91 12345 67890</p>
                         </div>
                     </div>
                     <div className="contact__info__container d-flex align-items-center gap-4">
                         <div className="single__info-box w-50">
-                            <h6><i class="ri-mail-fill"></i> Email</h6>
+                            <h6><i className="ri-mail-fill"></i> Email</h6>
                             <p>kalpitprajapati17@gmail.com</p>
                         </div>
                         <div className="single__info-box w-50">
                             <h6>Find Me</h6>
                             <p>
-                                <span><a href='#a'><i className="ri-facebook-line"></i></a></span>
+                                <span><a href='https://github.com/kalpit17' rel="noopener noreferre" target={'_blank'}><i className="ri-github-line"></i></a></span>
                                 <span><a href='#a'><i className="ri-instagram-line"></i></a></span>
-                                <span><a href='#a'><i className="ri-linkedin-line"></i></a></span>
+                                <span><a href='https://www.linkedin.com/in/kalpit-prajapati-a0a158170/' rel="noopener noreferre" target={'_blank'}  ><i className="ri-linkedin-line"></i></a></span>
                             </p>
                             
                         </div>

@@ -34,14 +34,14 @@ const About = () => {
                         </div> 
                         <div className='about__Content'>
                             <h2>I'm Kalpit Prajapati</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis vel necessitatibus, aliquam debitis distinctio iusto beatae. Voluptas non minima officiis dignissimos facere error esse eveniet deserunt velit id, repellat dolore eligendi odio alias beatae in accusamus nam autem expedita optio aperiam ut hic laborum!</p>
+                            <p>I am currently pursuing a Bachelor of Engineering degree in Computer Engineering field from Lalbhai Dalpatbhai Collage of Engineering, Ahmedabad, Gujarat .<br/><br/> I am an  web developer with good knowledge of frontend and backend techniques. I love spending time on fixing little details and optimizing web apps. Also i like working in a team, you'll learn faster and much more. </p>
 
                             <div className='social__links'>
                                 <h6 className='mb-3'>Connect with me</h6>
                                 <span><a href='#a'><i className="ri-facebook-line"></i></a></span>
-                                <span><a href='#a'><i className="ri-github-line"></i></a></span>
+                                <span><a href='https://github.com/kalpit17' rel="noopener noreferre" target={'_blank'}><i className="ri-github-line"></i></a></span>
                                 <span><a href='#a'><i className="ri-instagram-line"></i></a></span>
-                                <span><a href='#a'><i className="ri-linkedin-line"></i></a></span>
+                                <span><a href='https://www.linkedin.com/in/kalpit-prajapati-a0a158170/' rel="noopener noreferre" target={'_blank'}><i className="ri-linkedin-line"></i></a></span>
                             </div>
                         </div>
 

@@ -2,6 +2,13 @@
     background: var(--card-color);
     padding:20px;
     border-radius: 10px;
+    
+
+}
+.skill__wrapper h5{
+    color: var(--white-color);
+    padding-bottom: 5px;
+    text-align: center;
 }
 .skill__bar{
     height: 5px;
@@ -9,14 +16,14 @@
     position: relative;
     background: var(--scroll-bar-color);
     border-radius: 50px;
-    z-index: 999;
+    z-index: 10;
 
 }
 .skill__bar-percentage{
     background: var(--primary-color);
     height: 5px;
     position: absolute;
-    z-index: 1000;
+    z-index: 10;
     top: 0;
     left: 0;
     border-radius: 50px;

@@ -7,31 +7,31 @@ const servicesData = [
     icon: "ri-code-line",
     title: "Web Design",
     desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus repudiandae a! Rem quis, nisi id asperiores necessitatibus hic dolore!",
+      "I am a web designer with a passion for creating beautiful and functional web applications.",
   },
   {
     icon: "ri-code-s-slash-line",
-    title: "Web Development",
+    title: "Frontend Development",
     desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus repudiandae a! Rem quis, nisi id asperiores necessitatibus hic dolore!",
+      "I am a frontend developer with a passion for creating beautiful and functional web applications.",
   },
   {
     icon: "ri-qr-code-line",
-    title: "App Development",
+    title: "Backend Development",
     desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus repudiandae a! Rem quis, nisi id asperiores necessitatibus hic dolore!",
+      "I am a backend developer  with a passion for creating beautiful and functional web applications.",
   },
-  {
-    icon: "ri-search-line",
-    title: "SEO",
-    desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus repudiandae a! Rem quis, nisi id asperiores necessitatibus hic dolore!",
-  },
+  // {
+  //   icon: "ri-search-line",
+  //   title: "SEO",
+  //   desc:
+  //     "I am a web designer with a passion for creating beautiful and functional web applications.",
+  // },
   {
     icon: "ri-gallery-line",
-    title: "UI / UX",
+    title: "MERN stack Developer",
     desc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus repudiandae a! Rem quis, nisi id asperiores necessitatibus hic dolore!",
+      "I am a MERN stack developer  with a passion for creating beautiful and functional web applications.",
   },
 ];
 

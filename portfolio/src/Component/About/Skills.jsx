@@ -14,29 +14,30 @@ const frontendSkills = [
     percentage: "95%"
   },
   {
-    title: "Angular JS",
-    percentage: "65%"
+    title: "Bootstrap",
+    percentage: "95%"
   },
 ];
 
 const backendSkills = [
   {
-    title: "Node JS",
-    percentage: "75%",
+    title: "Java",
+    percentage: "90%",
   },
   {
     title: "PHP",
     percentage: "95%",
   },
   {
-    title: "MongoDB",
-    percentage: "75%",
+    title: "MySQL",
+    percentage: "95%",
   },
 ];
 const Skills = () => {
   return (
     <div className="skill__wrapper d-flex gap-5">
       <div className="frontend__skill w-50">
+        <h5>Frontend Skills</h5>
         {frontendSkills.map((item, index) => (
           <SkillItem
             key={index}
@@ -46,6 +47,7 @@ const Skills = () => {
         ))}
       </div>
       <div className="backend__skill w-50">
+      <h5>Backend Skills</h5>
         {backendSkills.map((item, index) => (
           <SkillItem
             key={index}

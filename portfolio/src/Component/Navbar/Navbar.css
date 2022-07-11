@@ -31,7 +31,14 @@
 .nav__item:hover{
     color:var(--primary-color);
 }
-
+.active{
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 7px;
+}
+.active:hover{
+    color: var(--bg-color);
+}
 .btn{
     background:var(--primary-color);
     color: var(--white-color);
