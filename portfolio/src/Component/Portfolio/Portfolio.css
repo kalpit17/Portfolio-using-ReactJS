@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    transform:  translateY(-40%);
+    transform:  translateY(-5%);
     opacity: 0;
     transition: 0.3s;
     border-radius: 5px;
@@ -37,9 +37,10 @@
     border-radius: 5px;
 }
 .portfolio__card:hover .portfolio__content{
-    transform: translateY(0);
-    opacity: 1;
-}
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
 .portfolio__content a{
 
     text-decoration: none;

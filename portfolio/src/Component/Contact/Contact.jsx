@@ -9,7 +9,7 @@ const Contact = () => {
             <Row>
                 <Col lg='12' className='mt-3'>
                     <p style={{color:'var(--primary-color)'}}>Contact</p>
-                    <h2>Get in Touch</h2>
+                    <h2 className='pb-5'>Get in Touch</h2>
                 </Col>
                 <Col lg='6' md='12'>
                     <div className="contact__info__container d-flex align-items-center gap-4">
