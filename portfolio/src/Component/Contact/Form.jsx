@@ -5,14 +5,16 @@ import emailjs from 'emailjs-com';
 const Form = () => {
 
     const form = useRef();
+    const [btnValue,setBtnValue]=useState('Send Message')
     const sendEmail = (e) => {
         e.preventDefault();
-    
+        setBtnValue("Sending...");
         emailjs.sendForm('service_03jfjjj', 'template_xrg5l8b', form.current, 'n9aCwhUFWSQlJLfgy')
           .then(() => {
             setEnteredName('');
             setEnteredEmail('');
             setEnteredMessage('');
+            setBtnValue("Send Message");
             alert("Email Sent Successfully")
           }, (error) => {
               alert(error.text);
@@ -45,7 +47,7 @@ const Form = () => {
             <textarea rows='5' name='message'  value={enteredMessage} onChange={e=>setEnteredMessage(e.target.value)} placeholder='Message' required></textarea>
         </div>
         <div >
-            <input type='submit' className="form__btn" value='Send Message &#x279C;' />
+            <input type='submit' className="form__btn" value={btnValue} />
         </div>
 
     </form>

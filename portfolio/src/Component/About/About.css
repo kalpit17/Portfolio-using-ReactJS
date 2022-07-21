@@ -49,14 +49,16 @@
 
 .about__img{
     background: var(--primary-color);
-    border-radius: 10px;
     height: 200px;
     width:100%;
-
+    border-radius: 10px;
+    
 }
 .about__img img{
     display: flex; 
+    border-radius: 10px;
     height: 200px;
+    width: 100%;
     margin: auto; 
 }
 
@@ -79,6 +81,7 @@
     }
     .about__img img{
         height: 150px;
+        width:150px;
         margin:auto ;
     }
     .about__btns{

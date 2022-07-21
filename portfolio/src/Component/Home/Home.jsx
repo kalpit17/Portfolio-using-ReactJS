@@ -3,7 +3,7 @@ import './Home.css';
 import resume from '../../assets/Kalpit Resume.pdf'
 
 import { Container, Row, Col } from 'reactstrap';
-import profile from '../../assets/profile.png';
+import profile from '../../assets/profile4.png';
 
 // import { init } from 'ityped';
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
@@ -36,8 +36,8 @@ const Home = () => {
                     </div>
                 </Col>
                 <Col lg='6' md='6'>
-                    <div className="hero__img p-3 pb-0 ">
-                        <img src={profile} alt="Profilr Pic" className='w-100'></img>
+                    <div className="hero__img p-0 pb-0 ">
+                        <img src={profile} alt="Profilr Pic"></img>
                     </div>
                 </Col>
             </Row>

@@ -29,9 +29,15 @@ a{
     width: 400px;
     height: 400px;
     border-radius: 10px;
-    background:var(--primary-color) ;
+    background:radial-gradient(450px,var(--lightGray-color),var(--primary-color)) ;
     margin-left: auto;
     display: flex;
+}
+.hero__img img{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 /* img{

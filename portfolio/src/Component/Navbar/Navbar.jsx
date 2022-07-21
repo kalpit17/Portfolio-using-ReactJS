@@ -65,7 +65,7 @@ const Navbar = () => {
       <header className="header" ref={headerRef}>
         <Container>
           <div className="navigation d-flex align-items-center justify-content-between">
-            <div className="logo"><h5><a href="#home">Kalpit</a></h5></div>
+            <div className="logo"><h5><a href="#home">Kalpit Prajapati</a></h5></div>
 
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
                 <ul className="nav__list">

@@ -1,11 +1,12 @@
 import React,{useState} from 'react';
 import './About.css';
 import {Container,Row,Col} from 'reactstrap';
-import profile from '../../assets/profile.png';
+import profile from '../../assets/profile9.png';
 import Education from './Education';
 import Skills from './Skills';
 
 const About = () => {
+
 
     const [aboutFilter,setAboutFilter]=useState('about');
 
@@ -29,9 +30,9 @@ const About = () => {
                 </Col>
                 <Col lg='8' md='9' xs='12'>
                     {aboutFilter === 'about' && <div className="about__content__wrapper d-flex gap-5">
-                        <div className='about__img' >
-                            <img src={profile} alt="Profile Pic"/>
-                        </div> 
+                            <div className='about__img' >
+                                <img src={profile} alt="Profile Pic"/>
+                            </div> 
                         <div className='about__Content'>
                             <h2>I'm Kalpit Prajapati</h2>
                             <p>I am currently pursuing a Bachelor of Engineering degree in Computer Engineering field from Lalbhai Dalpatbhai Collage of Engineering, Ahmedabad, Gujarat .<br/><br/> I am an  web developer with good knowledge of frontend and backend techniques. I love spending time on fixing little details and optimizing web apps. Also i like working in a team, you'll learn faster and much more. </p>
